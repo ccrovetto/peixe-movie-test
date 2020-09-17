@@ -6,13 +6,17 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "animate.css": "^4.1.1",
+    "animate.css-react": "^1.0.0",
     "axios": "^0.20.0",
+    "firebase-tools": "^8.10.0",
     "masonry-layout": "^4.2.2",
     "mdbreact": "^4.27.0",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-masonry-css": "^1.0.14",
+    "react-notifications-component": "^2.4.1",
     "react-scripts": "3.4.3"
   },
   "scripts": {
