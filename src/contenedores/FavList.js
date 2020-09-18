@@ -1,28 +1,26 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import CardsPeliculasFavoritas from '../componentes/CardsPeliculasFavoritas'
 
-class componentName extends Component {
-    constructor(props) {
-        super(props)
-
-    }
+class FavList extends Component {
 
     componentDidMount() {
 
     }
 
-
     render() {
         return (
             <div>
+                <header className="App-header">
+                </header>
+                <header className="App-content">
+                    <CardsPeliculasFavoritas />
 
+                </header>
             </div>
         )
     }
 }
 
-componentName.propTypes = {
 
-}
 
-export default componentName
+export default FavList
