@@ -11,7 +11,7 @@ Se creó una app web utilizando la mayor parte del tiempo disponible que cubre t
 
 La app web esta diseñada full responsiva por lo cual se puede ver desde dispositivos móviles y escritorio.
 
-En la app puedes búscar peliculas, ver detalles, agregarla a favoritos, eliminar de favoritos y ver la lista de facoritos
+En la app puedes búscar peliculas, ver detalles, agregarla a favoritos, eliminar de favoritos y ver la lista de favoritos
 
 ## Tecnologías utilizadas
 
