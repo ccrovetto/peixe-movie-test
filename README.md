@@ -28,19 +28,19 @@ Al momento de buscar si no se encuentra el resultado se avisa por notificación
 
 al momento de buscar se despliegan las peliculas
 
-### Si no se encuentra la caratula diseñe una caratula predeterminada 
+Si no se encuentra la caratula diseñe una caratula predeterminada 
 
-### Las películas se ordenarón con estilo Masonry
+Las películas se ordenarón con estilo Masonry
 
-Al pasar el mouse por encima de la caratula:
+## Al pasar el mouse por encima de la caratula:
 
-### Se podrá ver Título, año, botón de favoritos y botón para ver más detalles
+ Se podrá ver Título, año, botón de favoritos y botón para ver más detalles
 
-### Modal Ver detalles: se muestra de forma ordenada y limpia junto a unos iconos bellos.
+ Modal Ver detalles: se muestra de forma ordenada y limpia junto a unos iconos bellos.
 
-## Si no hay películas en Favoritos el sistema te avisa.
+ Si no hay películas en Favoritos el sistema te avisa.
 
-### Las peliculas se guardan en LocalStorage en formato JSON.stringfy
+ Las peliculas se guardan en LocalStorage en formato JSON.stringfy
 
 
 
