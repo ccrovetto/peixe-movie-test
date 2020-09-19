@@ -71,7 +71,7 @@ class CardsPeliculasFavoritas extends Component {
     togglEliminar = () => {
         store.addNotification({
             title: ":(",
-            message: "¡Pelicula eliminada de favoritos!",
+            message: "¡Película eliminada de favoritos!",
             type: "danger",
             insert: "top",
             container: "top-right",
