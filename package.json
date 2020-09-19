@@ -18,7 +18,8 @@
     "react-masonry-css": "^1.0.14",
     "react-notifications-component": "^2.4.1",
     "react-scripts": "3.4.3",
-    "store": "^2.0.12"
+    "store": "^2.0.12",
+    "translate": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",

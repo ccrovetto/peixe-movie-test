@@ -1,7 +1,11 @@
 import React, { Component } from 'react'
-import CardsPeliculas from '../componentes/CardsPeliculas'
-import '../App.css';
-class HomePage extends Component {
+import CardsPeliculasFavoritas from '../componentes/CardsPeliculasFavoritas'
+
+class FavList extends Component {
+
+    componentDidMount() {
+
+    }
 
     render() {
         return (
@@ -9,8 +13,7 @@ class HomePage extends Component {
                 <header className="App-header">
                 </header>
                 <header className="App-content">
-                    <CardsPeliculas />
-
+                    <CardsPeliculasFavoritas />
                 </header>
             </div>
         )
@@ -18,4 +21,5 @@ class HomePage extends Component {
 }
 
 
-export default HomePage
+
+export default FavList

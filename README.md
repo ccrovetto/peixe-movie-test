@@ -1,68 +1,47 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto fue creado por [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Link Proyecto https://peixe-movie-test.web.app/ 
+## Clonar Repositorio e Instalar
 
-In the project directory, you can run:
+Utilizar: yarn install
 
-### `yarn start`
+## Introducción
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Se creó una app web utilizando la mayor parte del tiempo disponible que cubre todas las necesidades.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+La app web esta diseñada full responsiva por lo cual se puede ver desde dispositivos móviles y escritorio.
 
-### `yarn test`
+En la app puedes búscar peliculas, ver detalles, agregarla a favoritos, eliminar de favoritos y ver la lista de facoritos
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tecnologías utilizadas
 
-### `yarn build`
+Se utilizó ReactJs, MDBReact, CSS, Node.js(yarn), animate.css y Masonry.
+Se utilizó api omdbapi para la base de datos de película y Axios para gestionar las llamadas HTTPS
+Se utilizó Firebase Hosting para subir el proyecto
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features - Uso
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+El sistema cuenta con notificaciones animadas
+El homepage cuenta con un búscador por titulo conectada a la api OMDBApi
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Al momento de buscar si no se encuentra el resultado se avisa por notificación
 
-### `yarn eject`
+al momento de buscar se despliegan las peliculas
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Si no se encuentra la caratula diseñe una caratula predeterminada 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Las películas se ordenarón con estilo Masonry
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Al pasar el mouse por encima de la caratula:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Se podrá ver Título, año, botón de favoritos y botón para ver más detalles
 
-## Learn More
+### Modal Ver detalles: se muestra de forma ordenada y limpia junto a unos iconos bellos.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Si no hay películas en Favoritos el sistema te avisa.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Las peliculas se guardan en LocalStorage en formato JSON.stringfy
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

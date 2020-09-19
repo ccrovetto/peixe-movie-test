@@ -48,6 +48,9 @@ a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]
   background-color: #304ffe  !important;
 }
 
+.mdb-color.lighten-2{
+  background-color: #ffc107  !important;
+}
 
 .btn-floating {
   position: relative;
